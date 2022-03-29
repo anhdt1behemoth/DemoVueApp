@@ -1,7 +1,11 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-
+import Up from './components/Up.vue'
+import IfElseVue from './components/IfElseVue.vue';
+import FormAdd from './components/FormAdd.vue';
+import RadioTest from './components/RadioTest.vue';
+import Lifecycle from './components/Lifecycle.vue';
 </script>
 
 <template>
@@ -16,6 +20,25 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+<main>
+  <Up/>
+</main>
+
+<main>
+  <IfElseVue/>
+</main>
+
+<main>
+  <FormAdd/>
+</main>
+
+<main>
+  <RadioTest/>
+</main>
+
+<main>
+  <Lifecycle/>
+</main>
 </template>
 
 <style>

@@ -2,26 +2,19 @@
 export default {
 data(){
   return{
-   count: 0
+   text:''
     }
   },
   methods:{
-    increment(){
-      this.count++
+    onInput(e){
+      this.text = e.target.value
     }
-  }
-
+ }
 }
 </script>
 
 <template>
-  <button @click="increment">Count is: {{count}}</button>
+ <input :value="text" @input="onInput" placeholder="type here">
+ <p>{{text}}</p>
 </template>
 
-<style >
-.title{
-  font-size: 30px;
-  color:aqua;
-}
-
-</style>

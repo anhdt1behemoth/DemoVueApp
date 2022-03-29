@@ -19,4 +19,3 @@ data(){
 <template>
 <button @click="increment()">count is: {{count}}</button>
 </template>
-

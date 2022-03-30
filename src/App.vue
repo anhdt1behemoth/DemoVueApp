@@ -6,6 +6,8 @@ import IfElseVue from './components/IfElseVue.vue';
 import FormAdd from './components/FormAdd.vue';
 import RadioTest from './components/RadioTest.vue';
 import Lifecycle from './components/Lifecycle.vue';
+import Watches from './components/Watches.vue';
+import ChildComp from './components/ChildComp.vue';
 </script>
 
 <template>
@@ -37,8 +39,15 @@ import Lifecycle from './components/Lifecycle.vue';
 </main>
 
 <main>
-  <Lifecycle/>
+  <Lifecycle/>  
 </main>
+<main>
+  <Watches />
+</main>
+<main>
+  <ChildComp/>
+</main>
+
 </template>
 
 <style>
@@ -103,3 +112,4 @@ a,
   }
 }
 </style>
+ 

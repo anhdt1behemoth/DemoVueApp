@@ -16,7 +16,7 @@ data(){
 </template>
 
 <style>
-.title{
+.title:hover{
   color: red;
   font-size: 30px;
 }

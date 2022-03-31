@@ -20,7 +20,7 @@ export default {
         }
     }
 }
-</script>
+</script>                         
 <template>
     <form @submit.prevent="addTodo">
         <input v-model="newTodo">

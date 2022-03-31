@@ -8,6 +8,9 @@ import RadioTest from './components/RadioTest.vue';
 import Lifecycle from './components/Lifecycle.vue';
 import Watches from './components/Watches.vue';
 import ChildComp from './components/ChildComp.vue';
+import Computed from './components/computed.vue';
+import Computed1 from './components/Computed1.vue';
+
 </script>
 
 <template>
@@ -46,6 +49,13 @@ import ChildComp from './components/ChildComp.vue';
 </main>
 <main>
   <ChildComp/>
+</main>
+<main>
+<Computed/>
+</main>
+
+<main>
+  <Computed1/>
 </main>
 
 </template>

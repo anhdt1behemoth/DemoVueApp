@@ -1,6 +1,15 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import Up from './components/Up.vue'
+import IfElseVue from './components/IfElseVue.vue';
+import FormAdd from './components/FormAdd.vue';
+import RadioTest from './components/RadioTest.vue';
+import Lifecycle from './components/Lifecycle.vue';
+import Watches from './components/Watches.vue';
+import ChildComp from './components/ChildComp.vue';
+import Computed from './components/computed.vue';
+import Computed1 from './components/Computed1.vue';
 
 </script>
 
@@ -16,6 +25,39 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+<main>
+  <Up/>
+</main>
+
+<main>
+  <IfElseVue/>
+</main>
+
+<main>
+  <FormAdd/>
+</main>
+
+<main>
+  <RadioTest/>
+</main>
+
+<main>
+  <Lifecycle/>  
+</main>
+<main>
+  <Watches />
+</main>
+<main>
+  <ChildComp/>
+</main>
+<main>
+<Computed/>
+</main>
+
+<main>
+  <Computed1/>
+</main>
+
 </template>
 
 <style>
@@ -80,3 +122,4 @@ a,
   }
 }
 </style>
+ 

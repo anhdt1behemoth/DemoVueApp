@@ -4,17 +4,12 @@ data(){
   return{
    text:''
     }
-  },
-  methods:{
-    onInput(e){
-      this.text = e.target.value
-    }
- }
+  }
 }
 </script>
 
 <template>
- <input :value="text" @input="onInput" placeholder="type here">
+ <input  v-model="text" placeholder="type here">
  <p>{{text}}</p>
 </template>
 
